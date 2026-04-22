@@ -1,6 +1,6 @@
-# Compiler Design - Mini Compiler Simulator 🚀
+# Compiler Design - Mini Compiler Simulator 
 
-## 📖 Project Overview
+##  Project Overview
 
 This is an **educational Java implementation of a mini compiler** that demonstrates all major phases of compilation for basic **iteration statements** (while, for, do-while loops).
 
@@ -11,7 +11,7 @@ The project includes:
 
 Perfect for **Compiler Design courses** to understand lexical → code generation flow.
 
-## ✨ Features
+##  Features
 
 - **Lexical Analysis**: Token classification (keywords, operators, identifiers, numbers).
 - **Syntax Validation**: Detailed error checking for loop structures.
@@ -28,12 +28,12 @@ for (init; cond; incr) { body }
 do { body } while (condition);
 ```
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - **JDK 8+** (OpenJDK recommended).
 - Java compiler (`javac`) & runtime (`java`).
 
-## 📋 Compilation & Usage
+##  Compilation & Usage
 
 ### 1. Compile
 
@@ -106,7 +106,7 @@ L2:
 java MainCompiler
 ```
 
-## 🔄 Compiler Phases Explained
+## Compiler Phases Explained
 
 ### Phase 1: Lexical Analysis
 
@@ -157,7 +157,7 @@ L1: MOV R1, i
 L2:
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Compiler Design/
@@ -168,7 +168,7 @@ Compiler Design/
 └── README.md             # This file
 ```
 
-## 🧪 Sample Input File (input.txt)
+##  Sample Input File (input.txt)
 
 ```
 for (i = 0; i < 10; i = i + 1) {
@@ -176,22 +176,7 @@ for (i = 0; i < 10; i = i + 1) {
 }
 ```
 
-## 🔮 Future Improvements
 
-- Parse expressions fully.
-- Symbol table.
-- More optimizations.
-- Real assembly output.
-- GUI interface.
 
-## 📂 Repository
-
-[GitHub Repo](https://github.com/SalmanKhan123-dev/Compiler-Design)
-
-## 🙌 Contributing
-
-1. Fork repo.
-2. Add features (e.g., if/else support).
-3. PR to `main`.
 
 **Built with ❤️ for Compiler Design learning!**
