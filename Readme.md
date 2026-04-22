@@ -38,7 +38,7 @@ do { body } while (condition);
 ### 1. Compile
 
 ```bash
-cd \"c:/Users/SALMAN KHAN/OneDrive/Desktop/Compiler Design\"
+go to root of your this folder and run these commands
 javac *.java
 ```
 
@@ -100,11 +100,7 @@ JMP L1
 L2:
 ```
 
-### 3. Run MainCompiler (Lexer Only)
 
-```bash
-java MainCompiler
-```
 
 ## Compiler Phases Explained
 
@@ -161,9 +157,7 @@ L2:
 
 ```
 Compiler Design/
-├── MainCompiler.java     # Simple lexer
 ├── MiniCompiler.java     # Full compiler
-├── input.txt             # Sample test input
 ├── *.class               # Compiled
 └── README.md             # This file
 ```
