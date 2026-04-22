@@ -1,4 +1,4 @@
-# Compiler Design - Mini Compiler Simulator 
+# Compiler Design - Mini Compiler 
 
 ##  Project Overview
 
